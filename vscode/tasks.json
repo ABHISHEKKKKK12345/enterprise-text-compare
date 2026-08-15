@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Enterprise Text Compare",
+      "type": "shell",
+      // ${command:python.interpreterPath} resolves to whatever interpreter
+      // the Python extension currently has selected (e.g.
+      // ".venv\\Scripts\\python.exe" on Windows or ".venv/bin/python" on
+      // Linux/macOS). This is intentionally NOT a literal path, so the same
+      // task works unmodified on every platform.
+      "command": "${command:python.interpreterPath}",
+      "args": ["${workspaceFolder}/run.py"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Run Tests (pytest)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "pytest", "-q"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Install Dependencies (requirements-dev.txt)",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "pip", "install", "-r", "requirements-dev.txt"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

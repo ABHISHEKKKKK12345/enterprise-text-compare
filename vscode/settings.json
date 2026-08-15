@@ -1,0 +1,36 @@
+{
+  // Intentionally does NOT set "python.defaultInterpreterPath": VS Code's
+  // Python extension auto-detects a ".venv" folder in the workspace root on
+  // Windows, Linux, and macOS and offers to select it. Hard-coding a path
+  // here (e.g. ".venv/bin/python" vs ".venv\\Scripts\\python.exe") would
+  // only be correct on one platform. Use the interpreter picker
+  // (Ctrl+Shift+P / Cmd+Shift+P -> "Python: Select Interpreter") instead.
+
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["tests"],
+
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+
+  // Enterprise Text Compare is launched through the Python extension /
+  // debugpy (see .vscode/launch.json) or a plain terminal command
+  // ("python run.py"), never by directly executing run.py as a shell
+  // script. This avoids Windows terminals attempting to honor run.py's
+  // Unix shebang line, which only applies when a POSIX shell executes the
+  // file directly (e.g. "./run.py" in bash) — something this project's own
+  // configuration never does.
+  "python.terminal.activateEnvironment": true,
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true
+  },
+
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/packaging/build": true,
+    "**/packaging/dist": true
+  }
+}
