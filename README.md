@@ -53,25 +53,45 @@ ever transmitted anywhere; the application requires no network access.
 ## 3. GUI Overview
 
 ```
-+--------------------------------------------------------------+
-| Enterprise Text Compare   Version 1.0.0     [Settings] [Help]|
-+--------------------------------------------------------------+
-| [Source A: Open | Clear | Copy | Save]  [Source B: ...]      |
-|   (paste text or drop a file into either panel)               |
-+--------------------------------------------------------------+
-| [Compare] [Cancel] [Settings] [Export]         (progress bar) |
-+--------------------------------------------------------------+
-| [Search...] [<] [>]      [|<] [<] [>] [>|]  Diff 3 of 12  A- A+|
-|  A#  Source A                    B#  Source B                |
-|  1   unchanged line              1   unchanged line           |
-|  2   removed line                                             |
-|                                   2   added line               |
-|  3   old text here      ~        3   new text here            |
-+--------------------------------------------------------------+
-| Lines Compared: 1248  Added: 37  Removed: 21  Modified: 14 …  |
-+--------------------------------------------------------------+
-| Status bar                                                    |
-+--------------------------------------------------------------+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ Enterprise Text Compare                                  v1.0.0              │
+│ Compare • Analyze • Navigate • Export                                        │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  SOURCE A                                      SOURCE B                      │
+│  ┌───────────────────────────────┐             ┌───────────────────────────┐ │
+│  │ Open   Clear   Copy   Save    │             │ Open  Clear  Copy  Save   │ │
+│  ├───────────────────────────────┤             ├───────────────────────────┤ │
+│  │                               │             │                           │ │
+│  │ Paste text or drag & drop     │             │ Paste text or drag & drop │ │
+│  │ a file here                   │             │ a file here               │ │
+│  │                               │             │                           │ │
+│  │                               │             │                           │ │
+│  └───────────────────────────────┘             └───────────────────────────┘ │
+│                                                                              │
+│              [ Compare ]  [ Cancel ]  [ Export ]  [ Settings ]               │
+│                         ███████████████░░░░  Processing...                   │
+│                                                                              │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Search: [ Search differences... ]   ◀ Previous   ▶ Next                    │
+│                                                                              │
+│  Difference Navigation:  |◀ First   ◀ Previous   Next ▶   Last ▶|          │
+│                                                                              │
+│                         Difference 3 of 12                                   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  SOURCE A                                      SOURCE B                      │
+│  Line │ Content                              │ Line │ Content                │
+│  ─────┼──────────────────────────────────────┼──────┼─────────────────────── │
+│   1   │ unchanged line                       │  1   │ unchanged line         │
+│   2   │ − removed line                       │      │                        │
+│       │                                      │  2   │ + added line           │
+│   3   │ ~ old text here                     │  3   │ ~ new text here         │
+│                                                                              │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  1,248 lines compared   │   +37 Added   │   −21 Removed   │   ~14 Modified   │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Ready • UTF-8 • Comparison complete                                         │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 The diff view is a **single** table with four columns (A line number,
