@@ -1,0 +1,108 @@
+ENTERPRISE TEXT COMPARE — PROPRIETARY SOFTWARE LICENSE
+
+Copyright © 2026 Abhishek. All rights reserved.
+
+This license governs the use of the Enterprise Text Compare software,
+including its source code, object code, documentation, and associated
+files (collectively, the "Software"). The Software is the proprietary
+property of Abhishek (the "Owner"). It is NOT open-source software and is
+not licensed under the MIT License, the Apache License, any GNU General
+Public License, the BSD License, or any similar open-source or
+permissive license.
+
+1. OWNERSHIP
+
+   The Software is owned exclusively by the Owner. All right, title, and
+   interest in and to the Software, including all associated
+   intellectual property rights, are and shall remain the exclusive
+   property of the Owner. Nothing in this license transfers or assigns
+   any ownership interest, in whole or in part, to any other party.
+
+2. GRANT OF RIGHTS
+
+   Except as explicitly and separately authorized in writing by the
+   Owner, no license, right, or permission of any kind is granted under
+   this document to any person or entity. In particular, and without
+   limitation, no right is granted to:
+
+     a. copy, reproduce, or duplicate the Software, in whole or in part;
+     b. distribute, publish, sublicense, sell, rent, or lease the
+        Software;
+     c. modify the Software or create derivative works based upon it;
+     d. reverse engineer, decompile, or disassemble the Software, except
+        to the extent such restriction is expressly prohibited by
+        applicable law notwithstanding this limitation;
+     e. use the Software for any purpose other than as expressly
+        authorized in writing by the Owner.
+
+   Any use of the Software is permitted solely to the extent, and
+   subject to the conditions, expressly granted by the Owner in a
+   separate written agreement. Absent such an agreement, no use of any
+   kind is authorized.
+
+3. NO TRANSFER OF INTELLECTUAL PROPERTY
+
+   This license does not sell, assign, or otherwise transfer any
+   intellectual property rights in the Software. All rights not
+   expressly granted in a separate written agreement are reserved by the
+   Owner.
+
+4. THIRD-PARTY COMPONENTS
+
+   The Software incorporates or depends upon certain third-party,
+   open-source software components (for example, the Python runtime, the
+   Qt framework, and the PySide6 bindings, together with other libraries
+   listed in the project's `requirements.txt` and
+   `THIRD_PARTY_NOTICES.md`). Such third-party components remain subject
+   to their own respective licenses, which are separate from, and not
+   superseded by, this license. Nothing in this license shall be
+   construed as granting rights to, or claiming ownership of, any
+   third-party component beyond what its own license permits. The Owner
+   makes no proprietary claim over any third-party component; this
+   license applies only to the original source code, assets, and
+   documentation authored for the Enterprise Text Compare project
+   itself.
+
+5. UNAUTHORIZED USE AND REDISTRIBUTION PROHIBITED
+
+   Unauthorized reproduction, redistribution, or use of the Software, in
+   whole or in part, is strictly prohibited and may result in civil and
+   criminal penalties, and will be prosecuted to the maximum extent
+   possible under applicable law.
+
+6. DISCLAIMER OF WARRANTY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS
+   PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE
+   OWNER DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR
+   OPERATE WITHOUT INTERRUPTION.
+
+7. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   THE OWNER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+   CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUE,
+   DATA, OR USE, ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+   ITS USE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND
+   REGARDLESS OF THE LEGAL THEORY UNDER WHICH SUCH DAMAGES ARE SOUGHT.
+
+8. NO IMPLIED RIGHTS
+
+   No provision of this license, and no course of dealing between the
+   Owner and any other party, shall be construed as granting any right
+   or license not expressly set forth herein.
+
+9. GOVERNING TERMS
+
+   Any separate written agreement between the Owner and an authorized
+   party regarding use of the Software shall govern in the event of a
+   conflict with this document, but only to the extent of that conflict.
+   All rights not expressly granted therein remain reserved under this
+   license.
+
+For inquiries regarding licensing, permitted use, or authorization,
+contact the Owner directly.
+
+Copyright © 2026 Abhishek. All rights reserved.

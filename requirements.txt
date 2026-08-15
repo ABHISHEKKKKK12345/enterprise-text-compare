@@ -1,0 +1,12 @@
+# Runtime dependencies for Enterprise Text Compare.
+# Install with: pip install -r requirements.txt
+
+# GUI framework (Qt6 bindings). Provides all cross-platform GUI, clipboard,
+# file dialog, high-DPI, and QStandardPaths functionality.
+PySide6>=6.6,<7.0
+
+# Optional but recommended: significantly improves encoding detection
+# accuracy for ambiguous 8-bit encodings beyond the built-in BOM/fallback
+# chain. The application works without it (falls back to a fixed ordered
+# list of common encodings) but detection confidence is lower.
+charset-normalizer>=3.3,<4.0

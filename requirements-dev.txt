@@ -1,0 +1,7 @@
+# Development and testing dependencies.
+# Install with: pip install -r requirements-dev.txt (also installs requirements.txt)
+
+-r requirements.txt
+
+pytest>=8.0
+pyinstaller>=6.3
